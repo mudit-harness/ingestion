@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MessagePack 2.1.152 has CVE-2024-48924 (NVD, CVSS v4.0 scored - missing sub-scores) -->
+    <PackageReference Include="MessagePack" Version="2.1.152" />
+    <!-- ASP.NET Core 2.2.6 has multiple BDSAs (CVSS v3.x scored - has sub-scores) -->
+    <PackageReference Include="Microsoft.AspNetCore.Server.IIS" Version="2.2.6" />
+  </ItemGroup>
+
+</Project>
