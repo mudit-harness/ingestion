@@ -1,0 +1,314 @@
+{
+    "items": [
+        {
+            "componentVersion": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6",
+            "componentName": "aspnet/AspNetCore",
+            "componentVersionName": "2.2.6",
+            "componentVersionOriginName": "nuget",
+            "componentVersionOriginId": "Microsoft.AspNetCore.Server.IIS/2.2.6",
+            "ignored": false,
+            "license": {
+                "type": "DISJUNCTIVE",
+                "licenses": [
+                    {
+                        "license": "https://progresssoftware.app.blackduck.com/api/licenses/7cae335f-1193-421e-92f1-8802b4243e93",
+                        "licenses": [],
+                        "name": "Apache License 2.0",
+                        "ownership": "OPEN_SOURCE",
+                        "licenseDisplay": "Apache License 2.0",
+                        "licenseFamilySummary": {
+                            "name": "Permissive",
+                            "href": "https://progresssoftware.app.blackduck.com/api/license-families/1"
+                        }
+                    }
+                ],
+                "licenseDisplay": "Apache License 2.0"
+            },
+            "vulnerabilityWithRemediation": {
+                "vulnerabilityName": "BDSA-2023-1778",
+                "description": ".NET contains a vulnerability in its authentication mechanism that can lead to a race condition. An attacker can leverage this race condition to bypass the authentication mechanism.",
+                "vulnerabilityPublishedDate": "2023-07-14T15:28:54.126Z",
+                "vulnerabilityUpdatedDate": "2024-07-10T15:15:48.181Z",
+                "baseScore": 8.1,
+                "overallScore": 7.1,
+                "exploitabilitySubscore": 2.2,
+                "impactSubscore": 5.9,
+                "source": "BDSA",
+                "severity": "HIGH",
+                "remediationStatus": "NEW",
+                "cweId": "CWE-362",
+                "remediationCreatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationUpdatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationCreatedBy": "aayyampi@progress.com",
+                "remediationUpdatedBy": "aayyampi@progress.com",
+                "bdsaTags": []
+            },
+            "packageUrl": "pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.6",
+            "_meta": {
+                "allow": [
+                    "GET",
+                    "PUT"
+                ],
+                "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities/BDSA-2023-1778/remediation",
+                "links": [
+                    {
+                        "rel": "matched-files",
+                        "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/matched-files"
+                    },
+                    {
+                        "rel": "vulnerabilities",
+                        "href": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origin/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities"
+                    }
+                ]
+            }
+        },
+        {
+            "componentVersion": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6",
+            "componentName": "aspnet/AspNetCore",
+            "componentVersionName": "2.2.6",
+            "componentVersionOriginName": "nuget",
+            "componentVersionOriginId": "Microsoft.AspNetCore.Server.IIS/2.2.6",
+            "ignored": false,
+            "license": {
+                "type": "DISJUNCTIVE",
+                "licenses": [
+                    {
+                        "license": "https://progresssoftware.app.blackduck.com/api/licenses/7cae335f-1193-421e-92f1-8802b4243e93",
+                        "licenses": [],
+                        "name": "Apache License 2.0",
+                        "ownership": "OPEN_SOURCE",
+                        "licenseDisplay": "Apache License 2.0",
+                        "licenseFamilySummary": {
+                            "name": "Permissive",
+                            "href": "https://progresssoftware.app.blackduck.com/api/license-families/1"
+                        }
+                    }
+                ],
+                "licenseDisplay": "Apache License 2.0"
+            },
+            "vulnerabilityWithRemediation": {
+                "vulnerabilityName": "BDSA-2023-3189",
+                "description": "ASP.NET Core contains a flaw in its validation logic for Blazer server forms. A remote attacker could leverage this to bypass validation logic, leading to downstream components interacting with improper data.\n\n**Note:** This vulnerability only affects ASP.NET Core Blazor applications.",
+                "vulnerabilityPublishedDate": "2023-11-17T14:27:11.984Z",
+                "vulnerabilityUpdatedDate": "2024-11-13T10:27:22.311Z",
+                "baseScore": 7.5,
+                "overallScore": 6.7,
+                "exploitabilitySubscore": 3.9,
+                "impactSubscore": 3.6,
+                "source": "BDSA",
+                "severity": "MEDIUM",
+                "remediationStatus": "NEW",
+                "cweId": "CWE-20",
+                "remediationCreatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationUpdatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationCreatedBy": "aayyampi@progress.com",
+                "remediationUpdatedBy": "aayyampi@progress.com",
+                "bdsaTags": []
+            },
+            "packageUrl": "pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.6",
+            "_meta": {
+                "allow": [
+                    "GET",
+                    "PUT"
+                ],
+                "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities/BDSA-2023-3189/remediation",
+                "links": [
+                    {
+                        "rel": "matched-files",
+                        "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/matched-files"
+                    },
+                    {
+                        "rel": "vulnerabilities",
+                        "href": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origin/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities"
+                    }
+                ]
+            }
+        },
+        {
+            "componentVersion": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6",
+            "componentName": "aspnet/AspNetCore",
+            "componentVersionName": "2.2.6",
+            "componentVersionOriginName": "nuget",
+            "componentVersionOriginId": "Microsoft.AspNetCore.Server.IIS/2.2.6",
+            "ignored": false,
+            "license": {
+                "type": "DISJUNCTIVE",
+                "licenses": [
+                    {
+                        "license": "https://progresssoftware.app.blackduck.com/api/licenses/7cae335f-1193-421e-92f1-8802b4243e93",
+                        "licenses": [],
+                        "name": "Apache License 2.0",
+                        "ownership": "OPEN_SOURCE",
+                        "licenseDisplay": "Apache License 2.0",
+                        "licenseFamilySummary": {
+                            "name": "Permissive",
+                            "href": "https://progresssoftware.app.blackduck.com/api/license-families/1"
+                        }
+                    }
+                ],
+                "licenseDisplay": "Apache License 2.0"
+            },
+            "vulnerabilityWithRemediation": {
+                "vulnerabilityName": "BDSA-2025-2049",
+                "description": "ASP.NET Core contains a privilege escalation vulnerability. \n\nA remote, unauthorized attacker could exploit this flaw to sign into another user's account and escalate their own privileges in cases where applications call `RefreshSignInAsync` with an improperly authenticated user parameter.",
+                "vulnerabilityPublishedDate": "2025-03-12T15:20:57.296Z",
+                "vulnerabilityUpdatedDate": "2025-03-12T15:20:57.290Z",
+                "baseScore": 7.0,
+                "overallScore": 6.1,
+                "exploitabilitySubscore": 2.2,
+                "impactSubscore": 4.7,
+                "source": "BDSA",
+                "severity": "MEDIUM",
+                "remediationStatus": "NEW",
+                "cweId": "CWE-269",
+                "remediationCreatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationUpdatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationCreatedBy": "aayyampi@progress.com",
+                "remediationUpdatedBy": "aayyampi@progress.com",
+                "bdsaTags": []
+            },
+            "packageUrl": "pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.6",
+            "_meta": {
+                "allow": [
+                    "GET",
+                    "PUT"
+                ],
+                "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities/BDSA-2025-2049/remediation",
+                "links": [
+                    {
+                        "rel": "matched-files",
+                        "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/matched-files"
+                    },
+                    {
+                        "rel": "vulnerabilities",
+                        "href": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origin/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities"
+                    }
+                ]
+            }
+        },
+        {
+            "componentVersion": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6",
+            "componentName": "aspnet/AspNetCore",
+            "componentVersionName": "2.2.6",
+            "componentVersionOriginName": "nuget",
+            "componentVersionOriginId": "Microsoft.AspNetCore.Server.IIS/2.2.6",
+            "ignored": false,
+            "license": {
+                "type": "DISJUNCTIVE",
+                "licenses": [
+                    {
+                        "license": "https://progresssoftware.app.blackduck.com/api/licenses/7cae335f-1193-421e-92f1-8802b4243e93",
+                        "licenses": [],
+                        "name": "Apache License 2.0",
+                        "ownership": "OPEN_SOURCE",
+                        "licenseDisplay": "Apache License 2.0",
+                        "licenseFamilySummary": {
+                            "name": "Permissive",
+                            "href": "https://progresssoftware.app.blackduck.com/api/license-families/1"
+                        }
+                    }
+                ],
+                "licenseDisplay": "Apache License 2.0"
+            },
+            "vulnerabilityWithRemediation": {
+                "vulnerabilityName": "BDSA-2025-6036",
+                "description": "ASP.NET Core contains a privilege escalation vulnerability. \n\nA remote, unauthorized attacker could exploit this flaw to sign into another user's account and escalate their own privileges in cases where applications call `RefreshSignInAsync` with an improperly authenticated user parameter.",
+                "vulnerabilityPublishedDate": "2025-07-09T10:20:26.109Z",
+                "vulnerabilityUpdatedDate": "2025-07-09T10:20:26.102Z",
+                "baseScore": 7.0,
+                "overallScore": 6.1,
+                "exploitabilitySubscore": 2.2,
+                "impactSubscore": 4.7,
+                "source": "BDSA",
+                "severity": "MEDIUM",
+                "remediationStatus": "NEW",
+                "cweId": "CWE-269",
+                "remediationCreatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationUpdatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationCreatedBy": "aayyampi@progress.com",
+                "remediationUpdatedBy": "aayyampi@progress.com",
+                "bdsaTags": []
+            },
+            "packageUrl": "pkg:nuget/Microsoft.AspNetCore.Server.IIS@2.2.6",
+            "_meta": {
+                "allow": [
+                    "GET",
+                    "PUT"
+                ],
+                "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities/BDSA-2025-6036/remediation",
+                "links": [
+                    {
+                        "rel": "matched-files",
+                        "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origins/69e29f81-fdfb-478e-9c2a-46470b43c805/matched-files"
+                    },
+                    {
+                        "rel": "vulnerabilities",
+                        "href": "https://progresssoftware.app.blackduck.com/api/components/3265bd9d-c2c3-4a5f-b947-543e27921c4e/versions/a8d68475-3e75-4e6a-80a1-84639810d8f6/origin/69e29f81-fdfb-478e-9c2a-46470b43c805/vulnerabilities"
+                    }
+                ]
+            }
+        },
+        {
+            "componentVersion": "https://progresssoftware.app.blackduck.com/api/components/4b79c943-c0b3-4f39-a6d7-03689cb70d8b/versions/6a853945-ad51-496f-9a16-53898dd50b51",
+            "componentName": "MessagePack",
+            "componentVersionName": "2.1.152",
+            "componentVersionOriginName": "nuget",
+            "componentVersionOriginId": "MessagePack/2.1.152",
+            "ignored": false,
+            "license": {
+                "type": "DISJUNCTIVE",
+                "licenses": [
+                    {
+                        "license": "https://progresssoftware.app.blackduck.com/api/licenses/ad705c59-6893-4980-bdbf-0837f1823cc4",
+                        "licenses": [],
+                        "name": "MIT License",
+                        "ownership": "OPEN_SOURCE",
+                        "licenseDisplay": "MIT License",
+                        "licenseFamilySummary": {
+                            "name": "Permissive",
+                            "href": "https://progresssoftware.app.blackduck.com/api/license-families/1"
+                        }
+                    }
+                ],
+                "licenseDisplay": "MIT License"
+            },
+            "vulnerabilityWithRemediation": {
+                "vulnerabilityName": "CVE-2024-48924",
+                "description": "### Impact\n\nWhen this library is used to deserialize messagepack data from an untrusted source, there is a risk of a denial of service attack by an attacker that sends data contrived to produce hash collisions, leading to large CPU consumption disproportionate to the size of the data being deserialized.\n\nThis is similar to [a prior advisory](https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-7q36-4xx7-xcxf), which provided an inadequate fix for the hash collision part of the vulnerability.\n\n### Patches\n\nThe following steps are required to mitigate this risk.\n\n1. Upgrade to a version of the library where a fix is available.\n1. Review the steps in [this previous advisory](https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-7q36-4xx7-xcxf) to ensure you have your application configured for untrusted data.\n\n### Workarounds\n\nIf upgrading MessagePack to a patched version is not an option for you, you may apply a manual workaround as follows:\n\n1. Declare a class that derives from `MessagePackSecurity`.\n2. Override the `GetHashCollisionResistantEqualityComparer` method to provide a collision-resistant hash function of your own and avoid calling `base.GetHashCollisionResistantEqualityComparer()`.\n3. Configure a `MessagePackSerializerOptions` with an instance of your derived type by calling `WithSecurity` on an existing options object.\n4. Use your custom options object for all deserialization operations. This may be by setting the `MessagePackSerializer.DefaultOptions` static property, if you call methods that rely on this default property, and/or by passing in the options object explicitly to any `Deserialize` method.\n\n### References\n\n- Learn more about best security practices when reading untrusted data with [MessagePack 1.x](https://github.com/MessagePack-CSharp/MessagePack-CSharp/tree/v1.x#security) or [MessagePack 2.x](https://github.com/MessagePack-CSharp/MessagePack-CSharp#security).\n- The .NET team's [discussion on hash collision vulnerabilities of their `HashCode` struct](https://github.com/GrabYourPitchforks/runtime/blob/threat_models/docs/design/security/System.HashCode.md).\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n* [Start a public discussion](https://github.com/MessagePack-CSharp/MessagePack-CSharp/discussions)\n* [Email us privately](mailto:andrewarnott@live.com)",
+                "vulnerabilityPublishedDate": "2024-10-17T21:15:14.070Z",
+                "vulnerabilityUpdatedDate": "2024-10-18T12:52:33.507Z",
+                "baseScore": 8.7,
+                "overallScore": 8.7,
+                "exploitabilitySubscore": 3.1,
+                "impactSubscore": 5.8,
+                "source": "NVD",
+                "severity": "HIGH",
+                "remediationStatus": "NEW",
+                "cweId": "CWE-328",
+                "remediationCreatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationUpdatedAt": "2025-12-10T20:44:55.143Z",
+                "remediationCreatedBy": "aayyampi@progress.com",
+                "remediationUpdatedBy": "aayyampi@progress.com",
+                "bdsaTags": []
+            },
+            "packageUrl": "pkg:nuget/MessagePack@2.1.152",
+            "_meta": {
+                "allow": [
+                    "GET",
+                    "PUT"
+                ],
+                "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/4b79c943-c0b3-4f39-a6d7-03689cb70d8b/versions/6a853945-ad51-496f-9a16-53898dd50b51/origins/f658f96a-a004-4e7b-aa3f-fabbc20deb9c/vulnerabilities/CVE-2024-48924/remediation",
+                "links": [
+                    {
+                        "rel": "matched-files",
+                        "href": "https://progresssoftware.app.blackduck.com/api/projects/57c1c079-5eaf-4336-b0e5-2c0a035f32ef/versions/359add5a-b903-4ca2-8cd2-fa508c57ea56/components/4b79c943-c0b3-4f39-a6d7-03689cb70d8b/versions/6a853945-ad51-496f-9a16-53898dd50b51/origins/f658f96a-a004-4e7b-aa3f-fabbc20deb9c/matched-files"
+                    },
+                    {
+                        "rel": "vulnerabilities",
+                        "href": "https://progresssoftware.app.blackduck.com/api/components/4b79c943-c0b3-4f39-a6d7-03689cb70d8b/versions/6a853945-ad51-496f-9a16-53898dd50b51/origin/f658f96a-a004-4e7b-aa3f-fabbc20deb9c/vulnerabilities"
+                    }
+                ]
+            }
+        }
+    ]
+}
