@@ -10,7 +10,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -31,6 +31,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
         "xrayIssueId": "XRAY-190218",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -39,7 +40,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -60,6 +61,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
         "xrayIssueId": "XRAY-190218",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -68,7 +70,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
+      "issueName": "3.13@musl//1.2.2-r0",
       "issueDescription": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -89,6 +91,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
         "xrayIssueId": "XRAY-129155",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:musl:1.2.2-r0"
@@ -97,7 +100,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
       "severity": 8.8,
       "originalSeverity": "High",
@@ -114,6 +117,7 @@
       "cvssVector": "8.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
         "xrayIssueId": "XRAY-203005",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -122,7 +126,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
       "severity": 8.8,
       "originalSeverity": "High",
@@ -139,6 +143,7 @@
       "cvssVector": "8.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
         "xrayIssueId": "XRAY-203005",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -147,7 +152,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -168,6 +173,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
         "xrayIssueId": "XRAY-200048",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -176,7 +182,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -197,6 +203,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
         "xrayIssueId": "XRAY-200048",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -205,7 +212,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -226,6 +233,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
         "xrayIssueId": "XRAY-230458",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -234,7 +242,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -255,6 +263,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
         "xrayIssueId": "XRAY-230458",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -263,7 +272,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -284,6 +293,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
         "xrayIssueId": "XRAY-190228",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -292,7 +302,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -313,6 +323,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
         "xrayIssueId": "XRAY-190228",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -321,7 +332,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -342,6 +353,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
         "xrayIssueId": "XRAY-190229",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -350,7 +362,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -371,6 +383,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
         "xrayIssueId": "XRAY-190229",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -379,7 +392,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -400,6 +413,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
         "xrayIssueId": "XRAY-190226",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -408,7 +422,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -429,6 +443,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
         "xrayIssueId": "XRAY-190226",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -437,7 +452,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
       "severity": 7.8,
       "originalSeverity": "High",
@@ -458,6 +473,7 @@
       "cvssVector": "7.8/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
         "xrayIssueId": "XRAY-211464",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -466,7 +482,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
       "severity": 7.8,
       "originalSeverity": "High",
@@ -487,6 +503,7 @@
       "cvssVector": "7.8/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
         "xrayIssueId": "XRAY-211464",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -495,7 +512,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -516,6 +533,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
         "xrayIssueId": "XRAY-190234",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -524,7 +542,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -545,6 +563,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
         "xrayIssueId": "XRAY-190234",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -553,7 +572,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -574,6 +593,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190227",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -582,7 +602,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -603,6 +623,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190227",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -611,7 +632,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -632,6 +653,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190221",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -640,7 +662,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -661,6 +683,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190220",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -669,7 +692,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -690,6 +713,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190220",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -698,7 +722,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in ",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
       "severity": 7.4,
       "originalSeverity": "High",
@@ -719,6 +743,7 @@
       "cvssVector": "7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
         "xrayIssueId": "XRAY-183483",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -727,7 +752,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in ",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
       "severity": 7.4,
       "originalSeverity": "High",
@@ -748,6 +773,7 @@
       "cvssVector": "7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
         "xrayIssueId": "XRAY-183483",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -756,7 +782,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -777,6 +803,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
         "xrayIssueId": "XRAY-190231",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -785,7 +812,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -806,6 +833,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
         "xrayIssueId": "XRAY-190231",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -814,7 +842,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -835,6 +863,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
         "xrayIssueId": "XRAY-190232",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -843,7 +872,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -864,6 +893,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
         "xrayIssueId": "XRAY-190232",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -872,7 +902,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
+      "issueName": "3.13@apk-tools//2.12.5-r0",
       "issueDescription": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
       "severity": 9.1,
       "originalSeverity": "Critical",
@@ -893,6 +923,7 @@
       "cvssVector": "9.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
         "xrayIssueId": "XRAY-180796",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:apk-tools:2.12.5-r0"
@@ -901,7 +932,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -922,6 +953,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
         "xrayIssueId": "XRAY-190235",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -930,7 +962,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -951,6 +983,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
         "xrayIssueId": "XRAY-190235",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -959,7 +992,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -980,6 +1013,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190219",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -988,7 +1022,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1009,6 +1043,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190219",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1017,7 +1052,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
+      "issueName": "3.13@zlib//1.2.11-r3",
       "issueDescription": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -1038,6 +1073,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
         "xrayIssueId": "XRAY-248740",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:zlib:1.2.11-r3"
@@ -1046,7 +1082,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).",
+      "issueName": "3.13@zlib//1.2.11-r3",
       "issueDescription": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1067,6 +1103,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "zlib through 1.2.12 has a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field. NOTE: only applications that call inflateGetHeader are affected. Some common applications bundle the affected zlib source code but may be unable to call inflateGetHeader (e.g., see the nodejs/node reference).",
         "xrayIssueId": "XRAY-248482",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:zlib:1.2.11-r3"
@@ -1075,7 +1112,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -1092,6 +1129,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190233",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1100,7 +1138,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -1117,6 +1155,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An incorrect handling of a special element in Busybox's ash applet leads to denial of service when processing a crafted shell command, due to the shell mistaking specific characters for reserved characters. This may be used for DoS under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190233",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1125,7 +1164,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1146,6 +1185,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
         "xrayIssueId": "XRAY-209584",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -1154,7 +1194,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1175,6 +1215,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The c_rehash script does not properly sanitise shell metacharacters to prevent command injection. This script is distributed by some operating systems in a manner where it is automatically executed. On such operating systems, an attacker could execute arbitrary commands with the privileges of the script. Use of the c_rehash script is considered obsolete and should be replaced by the OpenSSL rehash command line tool. Fixed in OpenSSL 3.0.3 (Affected 3.0.0,3.0.1,3.0.2). Fixed in OpenSSL 1.1.1o (Affected 1.1.1-1.1.1n). Fixed in OpenSSL 1.0.2ze (Affected 1.0.2-1.0.2zd).",
         "xrayIssueId": "XRAY-209584",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -1183,7 +1224,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1204,6 +1245,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
         "xrayIssueId": "XRAY-183470",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -1212,7 +1254,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1233,6 +1275,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "In order to decrypt SM2 encrypted data an application is expected to call the API function EVP_PKEY_decrypt(). Typically an application will call this function twice. The first time, on entry, the \"out\" parameter can be NULL and, on exit, the \"outlen\" parameter is populated with the buffer size required to hold the decrypted plaintext. The application can then allocate a sufficiently sized buffer and call EVP_PKEY_decrypt() again, but this time passing a non-NULL value for the \"out\" parameter. A bug in the implementation of the SM2 decryption code means that the calculation of the buffer size required to hold the plaintext returned by the first call to EVP_PKEY_decrypt() can be smaller than the actual size required by the second call. This can lead to a buffer overflow when EVP_PKEY_decrypt() is called by the application a second time with a buffer that is too small. A malicious attacker who is able present SM2 content for decryption to an application could cause attacker chosen data to overflow the buffer by up to a maximum of 62 bytes altering the contents of other data held after the buffer, possibly changing application behaviour or causing the application to crash. The location of the buffer is application dependent but is typically heap allocated. Fixed in OpenSSL 1.1.1l (Affected 1.1.1-1.1.1k).",
         "xrayIssueId": "XRAY-183470",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -1241,7 +1284,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1262,6 +1305,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
         "xrayIssueId": "XRAY-190230",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1270,7 +1314,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1291,6 +1335,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar function",
         "xrayIssueId": "XRAY-190230",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/sha256__def822f9851ca422481ec6fee59a9966f12b351c62ccb9aca841526ffaa9f748/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1299,7 +1344,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1320,6 +1365,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
         "xrayIssueId": "XRAY-190218",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1328,7 +1374,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1349,6 +1395,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc function",
         "xrayIssueId": "XRAY-190218",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1357,7 +1404,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
+      "issueName": "3.13@musl//1.2.2-r0",
       "issueDescription": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -1378,6 +1425,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "In musl libc through 1.2.1, wcsnrtombs mishandles particular combinations of destination buffer size and source character limit, as demonstrated by an invalid write access (buffer overflow).",
         "xrayIssueId": "XRAY-129155",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:musl:1.2.2-r0"
@@ -1386,7 +1434,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
       "severity": 8.8,
       "originalSeverity": "High",
@@ -1403,6 +1451,7 @@
       "cvssVector": "8.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
         "xrayIssueId": "XRAY-203005",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1411,7 +1460,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
       "severity": 8.8,
       "originalSeverity": "High",
@@ -1428,6 +1477,7 @@
       "cvssVector": "8.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "BusyBox through 1.35.0 allows remote attackers to execute arbitrary code if netstat is used to print a DNS PTR record's value to a VT compatible terminal. Alternatively, the attacker could choose to change the terminal's colors.",
         "xrayIssueId": "XRAY-203005",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1436,7 +1486,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -1457,6 +1507,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
         "xrayIssueId": "XRAY-200048",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -1465,7 +1516,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -1486,6 +1537,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial of service attack. The infinite loop can also be reached when parsing crafted private keys as they can contain explicit elliptic curve parameters. Thus vulnerable situations include: - TLS clients consuming server certificates - TLS servers consuming client certificates - Hosting providers taking certificates or private keys from customers - Certificate authorities parsing certification requests from subscribers - Anything else which parses ASN.1 elliptic curve parameters Also any other applications that use the BN_mod_sqrt() where the attacker can control the parameter values are vulnerable to this DoS issue. In the OpenSSL 1.0.2 version the public key is not parsed during initial parsing of the certificate which makes it slightly harder to trigger the infinite loop. However any operation which requires the public key from the certificate will trigger the infinite loop. In particular the attacker can use a self-signed certificate to trigger the loop during verification of the certificate signature. This issue affects OpenSSL versions 1.0.2, 1.1.1 and 3.0. It was addressed in the releases of 1.1.1n and 3.0.2 on the 15th March 2022. Fixed in OpenSSL 3.0.2 (Affected 3.0.0,3.0.1). Fixed in OpenSSL 1.1.1n (Affected 1.1.1-1.1.1m). Fixed in OpenSSL 1.0.2zd (Affected 1.0.2-1.0.2zc).",
         "xrayIssueId": "XRAY-200048",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -1494,7 +1546,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -1515,6 +1567,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
         "xrayIssueId": "XRAY-230458",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -1523,7 +1576,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -1544,6 +1597,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "AES OCB mode for 32-bit x86 platforms using the AES-NI assembly optimised implementation will not encrypt the entirety of the data under some circumstances. This could reveal sixteen bytes of data that was preexisting in the memory that wasn't written. In the special case of \"in place\" encryption, sixteen bytes of the plaintext would be revealed. Since OpenSSL does not support OCB based cipher suites for TLS and DTLS, they are both unaffected. Fixed in OpenSSL 3.0.5 (Affected 3.0.0-3.0.4). Fixed in OpenSSL 1.1.1q (Affected 1.1.1-1.1.1p).",
         "xrayIssueId": "XRAY-230458",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -1552,7 +1606,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1573,6 +1627,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
         "xrayIssueId": "XRAY-190228",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1581,7 +1636,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1602,6 +1657,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s function",
         "xrayIssueId": "XRAY-190228",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1610,7 +1666,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1631,6 +1687,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
         "xrayIssueId": "XRAY-190229",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1639,7 +1696,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1660,6 +1717,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init function",
         "xrayIssueId": "XRAY-190229",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1668,7 +1726,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1689,6 +1747,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
         "xrayIssueId": "XRAY-190226",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1697,7 +1756,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1718,6 +1777,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special function",
         "xrayIssueId": "XRAY-190226",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1726,7 +1786,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
       "severity": 7.8,
       "originalSeverity": "High",
@@ -1747,6 +1807,7 @@
       "cvssVector": "7.8/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
         "xrayIssueId": "XRAY-211464",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1755,7 +1816,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
       "severity": 7.8,
       "originalSeverity": "High",
@@ -1776,6 +1837,7 @@
       "cvssVector": "7.8/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox 1.35-x's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the copyvar function.",
         "xrayIssueId": "XRAY-211464",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1784,7 +1846,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -1805,6 +1867,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
         "xrayIssueId": "XRAY-190234",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1813,7 +1876,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
       "severity": 5.3,
       "originalSeverity": "Medium",
@@ -1834,6 +1897,7 @@
       "cvssVector": "5.3/CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An out-of-bounds heap read in Busybox's unlzma applet leads to information leak and denial of service when crafted LZMA-compressed input is decompressed. This can be triggered by any applet/format that",
         "xrayIssueId": "XRAY-190234",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1842,7 +1906,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1863,6 +1927,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190227",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1871,7 +1936,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -1892,6 +1957,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190227",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1900,7 +1966,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -1921,6 +1987,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's hush applet leads to denial of service when processing a crafted shell command, due to missing validation after a \\x03 delimiter character. This may be used for DoS under very rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190221",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1929,7 +1996,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1950,6 +2017,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190220",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -1958,7 +2026,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
       "severity": 9.8,
       "originalSeverity": "Critical",
@@ -1979,6 +2047,7 @@
       "cvssVector": "9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "An attacker-controlled pointer free in Busybox's hush applet leads to denial of service and possible code execution when processing a crafted shell command, due to the shell mishandling the &&& string. This may be used for remote code execution under rare conditions of filtered command input.",
         "xrayIssueId": "XRAY-190220",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -1987,7 +2056,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in ",
+      "issueName": "3.13@libssl1.1//1.1.1k-r0",
       "issueDescription": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
       "severity": 7.4,
       "originalSeverity": "High",
@@ -2008,6 +2077,7 @@
       "cvssVector": "7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
         "xrayIssueId": "XRAY-183483",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libssl1.1:1.1.1k-r0"
@@ -2016,7 +2086,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in ",
+      "issueName": "3.13@libcrypto1.1//1.1.1k-r0",
       "issueDescription": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
       "severity": 7.4,
       "originalSeverity": "High",
@@ -2037,6 +2107,7 @@
       "cvssVector": "7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "ASN.1 strings are represented internally within OpenSSL as an ASN1_STRING structure which contains a buffer holding the string data and a field holding the buffer length. This contrasts with normal C strings which are repesented as a buffer for the string data which is terminated with a NUL (0) byte. Although not a strict requirement, ASN.1 strings that are parsed using OpenSSL's own \"d2i\" functions (and other similar parsing functions) as well as any string whose value has been set with the ASN1_STRING_set() function will additionally NUL terminate the byte array in the ASN1_STRING structure. However, it is possible for applications to directly construct valid ASN1_STRING structures which do not NUL terminate the byte array by directly setting the \"data\" and \"length\" fields in the ASN1_STRING array. This can also happen by using the ASN1_STRING_set0() function. Numerous OpenSSL functions that print ASN.1 data have been found to assume that the ASN1_STRING byte array will be NUL terminated, even though this is not guaranteed for strings that have been directly constructed. Where an application requests an ASN.1 structure to be printed, and where that ASN.1 structure contains ASN1_STRINGs that have been directly constructed by the application without NUL terminating the \"data\" field, then a read buffer overrun can occur. The same thing can also occur during name constraints processing of certificates (for example if a certificate has been directly constructed by the application instead of loading it via the OpenSSL parsing functions, and the certificate contains non NUL terminated ASN1_STRING structures). It can also occur in the X509_get1_email(), X509_REQ_get1_email() and X509_get1_ocsp() functions. If a malicious actor can cause an application to directly construct an ASN1_STRING and then process it through one of the affected OpenSSL functions then this issue could be hit. This might result in a crash (causing a Denial of Service attack). It could also result in the disclosure of private memory contents (such",
         "xrayIssueId": "XRAY-183483",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:libcrypto1.1:1.1.1k-r0"
@@ -2045,7 +2116,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2066,6 +2137,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
         "xrayIssueId": "XRAY-190231",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -2074,7 +2146,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2095,6 +2167,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file function",
         "xrayIssueId": "XRAY-190231",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -2103,7 +2176,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2124,6 +2197,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
         "xrayIssueId": "XRAY-190232",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -2132,7 +2206,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2153,6 +2227,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i function",
         "xrayIssueId": "XRAY-190232",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -2161,7 +2236,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
+      "issueName": "3.13@apk-tools//2.12.5-r0",
       "issueDescription": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
       "severity": 9.1,
       "originalSeverity": "Critical",
@@ -2182,6 +2257,7 @@
       "cvssVector": "9.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "libfetch before 2021-07-26, as used in apk-tools, xbps, and other products, mishandles numeric strings for the FTP and HTTP protocols. The FTP passive mode implementation allows an out-of-bounds read because strtol is used to parse the relevant numbers into address bytes. It does not check if the line ends prematurely. If it does, the for-loop condition checks for the '\\0' terminator one byte too late.",
         "xrayIssueId": "XRAY-180796",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:apk-tools:2.12.5-r0"
@@ -2190,7 +2266,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -2211,6 +2287,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
         "xrayIssueId": "XRAY-190235",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -2219,7 +2296,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
       "severity": 5.5,
       "originalSeverity": "Medium",
@@ -2240,6 +2317,7 @@
       "cvssVector": "5.5/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A NULL pointer dereference in Busybox's man applet leads to denial of service when a section name is supplied but no page argument is given",
         "xrayIssueId": "XRAY-190235",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -2248,7 +2326,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@ssl_client//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2269,6 +2347,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190219",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:ssl_client:1.32.1-r6"
@@ -2277,7 +2356,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
+      "issueName": "3.13@busybox//1.32.1-r6",
       "issueDescription": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
       "severity": 7.2,
       "originalSeverity": "High",
@@ -2298,6 +2377,7 @@
       "cvssVector": "7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "A use-after-free in Busybox's awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate function",
         "xrayIssueId": "XRAY-190219",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:busybox:1.32.1-r6"
@@ -2306,7 +2386,7 @@
     {
       "issueType": "SCA",
       "subproduct": "JFrog Xray",
-      "issueName": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
+      "issueName": "3.13@zlib//1.2.11-r3",
       "issueDescription": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
       "severity": 7.5,
       "originalSeverity": "High",
@@ -2327,6 +2407,7 @@
       "cvssVector": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "cvssVersion": "CVSS v3",
       "_raw": {
+        "xraySummary": "zlib before 1.2.12 allows memory corruption when deflating (i.e., when compressing) if the input has many distant matches.",
         "xrayIssueId": "XRAY-248740",
         "provider": "JFrog",
         "impactPath": "default/bintray-docker-remote-cache/alpine/3.13.5/sha256__540db60ca9383eac9e418f78490994d0af424aab7bf6d0e47ac8ed4e2e9bcbba.tar.gz/3.13:zlib:1.2.11-r3"
